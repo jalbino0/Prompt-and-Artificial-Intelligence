@@ -6,7 +6,7 @@ Este repositório contém um **Jupyter Notebook (.ipynb)** desenvolvido como um 
 
 ## 📂 Arquivo
 
-- `Assistente de causas naturais`  
+- `Assistente para Acidentes de Causas Naturais`  
   Notebook com o código e as explicações do projeto.
 
 ---
