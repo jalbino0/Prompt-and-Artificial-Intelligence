@@ -9,18 +9,23 @@ O bot entende o que o usuário escreve ou fala e responde em texto ou áudio, de
 •Recebe mensagens de um bot do Telegram
 
 •Identifica se a mensagem é:
+
 -Texto
+
 -Voz (quando o usuário responde a um áudio)
 
 •Se for voz:
 
 -Baixa o áudio
+
 -Transcreve para texto (PT-BR)
 
 •Envia o texto para um AI Agent
 
 •Retorna a resposta:
+
 -Em texto, ou
+
 -Em áudio (voz gerada por IA)
 
 **Pré-requisitos**
@@ -36,27 +41,39 @@ O bot entende o que o usuário escreve ou fala e responde em texto ou áudio, de
 **Como usar**
 
 1-Importe o arquivo .json no n8n
+
 2-Configure as credenciais de Telegram e OpenAI
+
 3-Ative o workflow
+
 4-Envie mensagens para o bot no Telegram
 
 **Tipos de interação**
 
 •Texto
+
 -Envie uma mensagem normal para o bot
+
 -Ele responderá em texto
 
 •Voz
+
 -Responda (reply) a uma mensagem de voz
+
 -O bot irá:
+
 Transcrever o áudio
+
 Processar com IA
+
 Responder em texto ou áudio
 
 **Observações importantes**
 
 •O workflow vem desativado ao importar → é necessário ativá-lo
+
 •O fluxo de voz depende de responder a uma mensagem de áudio
+
 •A voz gerada usa TTS (texto para fala)
 
 **Personalização**
