@@ -1,5 +1,7 @@
 **Agente de Voz Telegram (n8n)**
+
 Este projeto é um workflow do n8n que conecta um bot do Telegram a um agente de IA, permitindo interação por mensagens de texto e mensagens de voz. 
+
 O bot entende o que o usuário escreve ou fala e responde em texto ou áudio, de forma automática.
 
 **O que o workflow faz**
@@ -60,8 +62,13 @@ Responder em texto ou áudio
 **Personalização**
 
 •Você pode facilmente alterar:
+
 -A mensagem inicial de resposta
+
 -O prompt do agente de IA
+
 -O modelo de IA utilizado
+
 -O idioma da transcrição
+
 -O tipo de resposta (somente texto ou áudio)
